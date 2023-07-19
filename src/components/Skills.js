@@ -35,7 +35,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p> I am a versatile professional with a wide range of skills. In the realm of web development, I possess expertise in multiple programming languages, frameworks, and tools, enabling me to create dynamic and user-friendly websites. Additionally, my proficiency in risk management allows me to identify and mitigate potential risks, ensuring project success and alignment with business objectives. As a YouTuber, I create engaging content, leveraging my storytelling abilities and video editing skills to connect with viewers. My passion for travel has not only broadened my cultural awareness and adaptability but also provided me with unique experiences to share through my YouTube channel. With strong public speaking skills, I confidently deliver presentations, captivating audiences and leaving a lasting impact. Moreover, I excel in teamwork, fostering effective communication, collaboration, and leveraging the strengths of my teammates to achieve collective success. Through this combination of skills, I bring a well-rounded approach to my work and a commitment to excellence in all endeavors. </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -43,15 +43,15 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Risk Management</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Public Speaking</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Teamwork</h5>
                             </div>
                         </Carousel>
                     </div>

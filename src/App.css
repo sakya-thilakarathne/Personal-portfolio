@@ -90,6 +90,10 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+.logooo {
+  width:150px;
+  height: 150px;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
