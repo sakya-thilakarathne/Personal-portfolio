@@ -11,6 +11,21 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Employee Management Syetem",
+      description: "Frontend & Backend",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Saintstream Films Alert App",
+      description: "Frontend Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Automated Wash Basin",
+      description: "Design & Development",
+      imgUrl: projImg3,
+    },
+    /*{
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
@@ -24,22 +39,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    },*/
   ];
 
   return (
@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Here, you'll find a showcase of my notable projects that demonstrate my skills, creativity, and problem-solving abilities. Each project represents a unique challenge I have tackled, utilizing my expertise in web development, risk management, and effective communication. From designing and developing responsive websites to implementing robust risk management strategies, my projects highlight my ability to deliver impactful solutions. I have also incorporated my passion for travel and storytelling into some of these projects, creating engaging multimedia content that resonates with audiences. Explore this section to gain insights into my project management approach, technical expertise, and innovative problem-solving capabilities.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
